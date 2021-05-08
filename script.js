@@ -1,6 +1,6 @@
 // Connect "Guess" button to "random" function
 document.getElementById('button').addEventListener('click', comparison)
-let userInput = 0 
+let userInput = 0
 
 function comparison () {
   // Get user's input and convert it to an integer
@@ -9,7 +9,7 @@ function comparison () {
 
   // Check if user's input is less than 0
   if (userInput < 0) {
-      document.getElementById('answer').innerHTML = 'Negative'
+    document.getElementById('answer').innerHTML = 'Negative'
   } else {
     document.getElementById('answer').innerHTML = 'Positive'
   }
